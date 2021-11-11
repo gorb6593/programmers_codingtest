@@ -22,3 +22,10 @@ class Solution {
         return answer;
     }
 }
+핸드폰 번호 가리기
+class Solution {
+  public String solution(String phone_number) {
+    return phone_number.replaceAll(".(?=.{4})", "*");
+  }
+}
+// 패턴공부하기!
